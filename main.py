@@ -1,4 +1,5 @@
-from gtts import gTTS
+from TextToSpeech import *
+from PDF_text import *
+import tkinter as tk
+import os
 
-tts = gTTS('hello')
-tts.save('hello.mp3')
